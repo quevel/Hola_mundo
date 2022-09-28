@@ -1,0 +1,6 @@
+lista = range(1, 101)
+for numero in range(1, 101):
+    print(numero,'\n')
+    break
+listaOrdenada = sorted(lista, reverse=True)
+print(listaOrdenada)
